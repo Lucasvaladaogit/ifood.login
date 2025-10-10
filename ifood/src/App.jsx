@@ -9,19 +9,24 @@ function App() {
 
   return (
     <>
-      <div className="top">
-      <img src={logo1} alt="" className="logo1"/>
+
+
+      <div className="box">
+        <img src={logo1} alt="" className="logo1"/>
+        <div className="top"></div> 
       </div>
+
+
+
       <div className="card">
-        
         <h1>Login</h1>
-        <input type="Usuario" />
-        <input type="Senha" />
-        <input type="checkbox" name="Manter conectado" id="" />
+        <input type="Usuario" id='Usuario' />
+        <input type="Senha" id='Senha' />
+        <input type="checkbox" name="Manter conectado" id="check" />
         <a href="http://"></a>
-        <button>entrar</button>
+        <button>Entrar</button>
         <p>logar com</p>
-      
+
       </div>
     </>
   )
